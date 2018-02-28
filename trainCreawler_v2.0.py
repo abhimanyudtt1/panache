@@ -1,6 +1,6 @@
-import BeautifulSoup
+import bs4 as BeautifulSoup
 import mechanize
-import urllib2
+import urllib3
 import cookielib
 
 cj = cookielib.CookieJar()
